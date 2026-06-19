@@ -1,0 +1,6 @@
+# PostgreSQL container setup removed. The application now uses Prisma with SQLite (local database file ./backend/prisma/dev.db) instead of PostgreSQL.
+# No Docker containers are required to run the database.
+version: '3.8'
+services:
+  # SQLite does not require a service container.
+

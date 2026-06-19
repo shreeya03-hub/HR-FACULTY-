@@ -1,0 +1,113 @@
+export enum Role {
+  SUPER_ADMIN = 'SUPER_ADMIN',
+  HR_MANAGER = 'HR_MANAGER',
+  DEAN = 'DEAN'
+}
+
+export enum FacultyStatus {
+  ACTIVE = 'ACTIVE',
+  ON_LEAVE = 'ON_LEAVE',
+  SUSPENDED = 'SUSPENDED',
+  RETIRED = 'RETIRED',
+  TERMINATED = 'TERMINATED'
+}
+
+export enum AttendanceStatus {
+  PRESENT = 'PRESENT',
+  ABSENT = 'ABSENT',
+  LATE = 'LATE',
+  ON_LEAVE = 'ON_LEAVE'
+}
+
+export enum LeaveType {
+  CASUAL_LEAVE = 'CASUAL_LEAVE',
+  SICK_LEAVE = 'SICK_LEAVE',
+  EARNED_LEAVE = 'EARNED_LEAVE',
+  DUTY_LEAVE = 'DUTY_LEAVE',
+  MATERNITY_LEAVE = 'MATERNITY_LEAVE'
+}
+
+export enum LeaveRequestStatus {
+  PENDING_HOD = 'PENDING_HOD',
+  PENDING_HR = 'PENDING_HR',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED'
+}
+
+export enum PublicationType {
+  JOURNAL = 'JOURNAL',
+  CONFERENCE = 'CONFERENCE',
+  BOOK = 'BOOK',
+  BOOK_CHAPTER = 'BOOK_CHAPTER'
+}
+
+export enum PatentStatus {
+  FILED = 'FILED',
+  PUBLISHED = 'PUBLISHED',
+  GRANTED = 'GRANTED'
+}
+
+export enum FdpType {
+  WORKSHOP = 'WORKSHOP',
+  FDP = 'FDP',
+  SEMINAR = 'SEMINAR',
+  CERTIFICATION = 'CERTIFICATION',
+  INDUSTRIAL_TRAINING = 'INDUSTRIAL_TRAINING'
+}
+
+export enum PayrollStatus {
+  DRAFT = 'DRAFT',
+  PROCESSED = 'PROCESSED',
+  PAID = 'PAID'
+}
+
+export enum JobStatus {
+  OPEN = 'OPEN',
+  CLOSED = 'CLOSED'
+}
+
+export enum CandidateStatus {
+  APPLIED = 'APPLIED',
+  SHORTLISTED = 'SHORTLISTED',
+  INTERVIEWED = 'INTERVIEWED',
+  OFFERED = 'OFFERED',
+  JOINED = 'JOINED',
+  REJECTED = 'REJECTED'
+}
+
+export enum InterviewStatus {
+  SCHEDULED = 'SCHEDULED',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED'
+}
+
+export enum ServiceRequestCategory {
+  IT_SUPPORT = 'IT_SUPPORT',
+  ID_CARD = 'ID_CARD',
+  EQUIPMENT = 'EQUIPMENT',
+  INFRASTRUCTURE_SUPPORT = 'INFRASTRUCTURE_SUPPORT'
+}
+
+export enum ServiceRequestStatus {
+  PENDING_DEPARTMENT = 'PENDING_DEPARTMENT',
+  PENDING_ADMIN = 'PENDING_ADMIN',
+  RESOLVED = 'RESOLVED',
+  REJECTED = 'REJECTED'
+}
+
+export enum AppraisalStatus {
+  DRAFT = 'DRAFT',
+  HOD_REVIEW = 'HOD_REVIEW',
+  DEAN_REVIEW = 'DEAN_REVIEW',
+  HR_REVIEW = 'HR_REVIEW',
+  APPROVED = 'APPROVED'
+}
+
+export enum NaacContributionType {
+  PUBLICATION = 'PUBLICATION',
+  FDP = 'FDP',
+  STUDENT_MENTORING = 'STUDENT_MENTORING',
+  RESEARCH_GRANT = 'RESEARCH_GRANT',
+  CONSULTANCY = 'CONSULTANCY',
+  EXTENSION_ACTIVITY = 'EXTENSION_ACTIVITY'
+}
