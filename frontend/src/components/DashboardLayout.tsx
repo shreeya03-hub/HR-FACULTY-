@@ -104,6 +104,54 @@ export default function DashboardLayout({ children, activeTab, setActiveTab }: D
           { id: 'appraisal', name: 'Self Appraisal', icon: Award }
         ];
 
+      case 'HOD':
+        return [
+          ...base,
+          { id: 'departments', name: 'My Department', icon: Building },
+          { id: 'faculties', name: 'Department Faculty', icon: Users },
+          { id: 'workload', name: 'Teaching Workload', icon: TrendingUp },
+          { id: 'appraisals', name: 'Appraisal Reviews', icon: Award },
+          { id: 'profile', name: 'My Profile', icon: User },
+          { id: 'leaves', name: 'Apply Leave', icon: CalendarCheck },
+          { id: 'attendance', name: 'Attendance Logs', icon: FileText },
+          { id: 'publications', name: 'Research Papers', icon: Award },
+          { id: 'fdp', name: 'FDP Tracker', icon: GraduationCap },
+          { id: 'slips', name: 'Salary Slips', icon: CreditCard },
+          { id: 'tickets', name: 'Service Requests', icon: Wrench },
+          { id: 'naac', name: 'NAAC Contributions', icon: FileText },
+          { id: 'appraisal', name: 'Self Appraisal', icon: Award }
+        ];
+
+      case 'ACCOUNTS_OFFICER':
+        return [
+          ...base,
+          { id: 'payroll', name: 'Payroll Processing', icon: CreditCard },
+          { id: 'slips', name: 'Salary Slips', icon: FileText },
+          { id: 'tickets', name: 'Service Requests', icon: Wrench }
+        ];
+
+      case 'NAAC_COORDINATOR':
+        return [
+          ...base,
+          { id: 'naac-metrics', name: 'NAAC Metrics', icon: GraduationCap },
+          { id: 'naac', name: 'All Contributions', icon: FileText },
+          { id: 'ai-hub', name: 'AI Narrative Gen', icon: BrainCircuit }
+        ];
+
+      case 'FACULTY':
+        return [
+          ...base,
+          { id: 'profile', name: 'My Profile', icon: User },
+          { id: 'leaves', name: 'Leave Management', icon: CalendarCheck },
+          { id: 'attendance', name: 'Attendance Logs', icon: FileText },
+          { id: 'publications', name: 'Research & Patents', icon: Award },
+          { id: 'fdp', name: 'FDP Tracker', icon: GraduationCap },
+          { id: 'slips', name: 'Salary Slips', icon: CreditCard },
+          { id: 'tickets', name: 'Service Requests', icon: Wrench },
+          { id: 'naac', name: 'NAAC Contributions', icon: FileText },
+          { id: 'appraisal', name: 'Self Appraisal', icon: Award }
+        ];
+
       default:
         return base;
     }

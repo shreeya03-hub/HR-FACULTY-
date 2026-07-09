@@ -84,7 +84,23 @@ async function main() {
     { email: 'albert.einstein@university.edu', firstName: 'Albert', lastName: 'Einstein', phone: '9876540006', dept: eceDept, designation: 'Professor', gender: 'Male', basicPay: 130000.0, age: 50 },
     { email: 'nikola.tesla@university.edu', firstName: 'Nikola', lastName: 'Tesla', phone: '9876540007', dept: eceDept, designation: 'Associate Professor', gender: 'Male', basicPay: 92000.0, age: 37 },
     { email: 'wernher.vonbraun@university.edu', firstName: 'Wernher', lastName: 'Von Braun', phone: '9876540008', dept: meDept, designation: 'Professor', gender: 'Male', basicPay: 105000.0, age: 44 },
-    { email: 'leonardo.davinci@university.edu', firstName: 'Leonardo', lastName: 'Da Vinci', phone: '9876540009', dept: civilDept, designation: 'Professor', gender: 'Male', basicPay: 125000.0, age: 52 }
+    { email: 'leonardo.davinci@university.edu', firstName: 'Leonardo', lastName: 'Da Vinci', phone: '9876540009', dept: civilDept, designation: 'Professor', gender: 'Male', basicPay: 125000.0, age: 52 },
+    // 15 New Dummy Faculties
+    { email: 'charles.babbage@university.edu', firstName: 'Charles', lastName: 'Babbage', phone: '9876540010', dept: cseDept, designation: 'Professor', gender: 'Male', basicPay: 125000.0, age: 55 },
+    { email: 'margaret.hamilton@university.edu', firstName: 'Margaret', lastName: 'Hamilton', phone: '9876540011', dept: cseDept, designation: 'Associate Professor', gender: 'Female', basicPay: 98000.0, age: 40 },
+    { email: 'tim.berners.lee@university.edu', firstName: 'Tim', lastName: 'Berners-Lee', phone: '9876540012', dept: cseDept, designation: 'Assistant Professor', gender: 'Male', basicPay: 78000.0, age: 32 },
+    { email: 'robert.boyle@university.edu', firstName: 'Robert', lastName: 'Boyle', phone: '9876540013', dept: hsDept, designation: 'Professor', gender: 'Male', basicPay: 112000.0, age: 48 },
+    { email: 'rosalind.franklin@university.edu', firstName: 'Rosalind', lastName: 'Franklin', phone: '9876540014', dept: hsDept, designation: 'Associate Professor', gender: 'Female', basicPay: 95000.0, age: 38 },
+    { email: 'niels.bohr@university.edu', firstName: 'Niels', lastName: 'Bohr', phone: '9876540015', dept: hsDept, designation: 'Assistant Professor', gender: 'Male', basicPay: 72000.0, age: 30 },
+    { email: 'james.maxwell@university.edu', firstName: 'James', lastName: 'Maxwell', phone: '9876540016', dept: eceDept, designation: 'Professor', gender: 'Male', basicPay: 118000.0, age: 47 },
+    { email: 'hedy.lamarr@university.edu', firstName: 'Hedy', lastName: 'Lamarr', phone: '9876540017', dept: eceDept, designation: 'Associate Professor', gender: 'Female', basicPay: 96000.0, age: 39 },
+    { email: 'claude.shannon@university.edu', firstName: 'Claude', lastName: 'Shannon', phone: '9876540018', dept: eceDept, designation: 'Assistant Professor', gender: 'Male', basicPay: 76000.0, age: 31 },
+    { email: 'henry.ford@university.edu', firstName: 'Henry', lastName: 'Ford', phone: '9876540019', dept: meDept, designation: 'Professor', gender: 'Male', basicPay: 122000.0, age: 51 },
+    { email: 'mary.anderson@university.edu', firstName: 'Mary', lastName: 'Anderson', phone: '9876540020', dept: meDept, designation: 'Associate Professor', gender: 'Female', basicPay: 94000.0, age: 41 },
+    { email: 'george.stephenson@university.edu', firstName: 'George', lastName: 'Stephenson', phone: '9876540021', dept: meDept, designation: 'Assistant Professor', gender: 'Male', basicPay: 74000.0, age: 33 },
+    { email: 'john.smeaton@university.edu', firstName: 'John', lastName: 'Smeaton', phone: '9876540022', dept: civilDept, designation: 'Professor', gender: 'Male', basicPay: 119000.0, age: 49 },
+    { email: 'emily.roebling@university.edu', firstName: 'Emily', lastName: 'Roebling', phone: '9876540023', dept: civilDept, designation: 'Associate Professor', gender: 'Female', basicPay: 97000.0, age: 42 },
+    { email: 'karl.terzaghi@university.edu', firstName: 'Karl', lastName: 'Terzaghi', phone: '9876540024', dept: civilDept, designation: 'Assistant Professor', gender: 'Male', basicPay: 75000.0, age: 34 }
   ];
 
   for (const facData of facultyUsersData) {

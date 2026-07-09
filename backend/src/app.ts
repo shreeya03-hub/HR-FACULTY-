@@ -14,6 +14,8 @@ import recruitmentRoutes from './routes/recruitmentRoutes';
 import appraisalRoutes from './routes/appraisalRoutes';
 import naacRoutes from './routes/naacRoutes';
 import aiRoutes from './routes/aiRoutes';
+import exitRoutes from './routes/exitRoutes';
+import workloadRoutes from './routes/workloadRoutes';
 
 dotenv.config();
 
@@ -54,6 +56,8 @@ app.use('/api/recruitment', recruitmentRoutes);
 app.use('/api/appraisal', appraisalRoutes);
 app.use('/api/naac', naacRoutes);
 app.use('/api/ai', aiRoutes);
+app.use('/api/exit', exitRoutes);
+app.use('/api/workload', workloadRoutes);
 
 // Error Handling Middleware
 app.use((err: any, req: Request, res: Response, next: NextFunction) => {
